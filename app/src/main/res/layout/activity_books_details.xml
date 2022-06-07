@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".presentation.details.BookDetailsActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/book_details_title_label"
+        android:textStyle="bold"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/bookDetailsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Title 1"
+        tools:textColor="@color/black" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:textStyle="bold"
+        android:text="@string/book_details_description_label"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/bookDetailsDescrition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Description 1"
+        tools:textColor="@color/black" />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:textStyle="bold"
+        android:text="Publisher"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/bookDetailsPublisher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Publisher 1"
+        tools:textColor="@color/black" />
+
+</LinearLayout>
